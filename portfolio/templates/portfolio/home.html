@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="[YOUR NAME] — Computer Science student, developer, and programming content creator.">
+  <meta property="og:title" content="[YOUR NAME] — Developer & Content Creator">
+  <meta property="og:description" content="Building, learning, and sharing programming, web development, AI, and machine learning projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <title>[YOUR NAME] — Developer & Content Creator</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+  <script defer src="{% static 'portfolio/js/script.js' %}"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Go to homepage">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>[YOUR NAME]</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-menu" id="primary-menu">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#skills">Skills</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#journey">Journey</a>
+        <a class="nav-link" href="#content">Content</a>
+        <a class="nav-link nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span> Building my skills one project at a time</p>
+          <h1>I Build.<br><span>I Learn.</span><br>I Share.</h1>
+          <p class="hero-subtitle">Computer Science Student <span>•</span> Developer <span>•</span> Content Creator</p>
+          <p class="hero-text">
+            I learn technologies by building real projects, exploring ideas, and sharing the process.
+            My interests include web development, artificial intelligence, machine learning, and computer science.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Work <span>↗</span></a>
+            <a class="button button-secondary" href="#content">Watch My Content <span>▶</span></a>
+          </div>
+          <div class="hero-meta">
+            <span><strong>CS</strong> Student</span>
+            <span><strong>AI</strong> Explorer</span>
+            <span><strong>WEB</strong> Builder</span>
+          </div>
+        </div>
+
+        <div class="code-window-wrap reveal" aria-label="Decorative programming visual">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="code-window">
+            <div class="window-bar">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>developer.js</span>
+              <span class="window-status">●</span>
+            </div>
+            <div class="code-body">
+              <div class="code-line"><span class="ln">01</span><span><b class="purple">const</b> developer = {</span></div>
+              <div class="code-line"><span class="ln">02</span><span>&nbsp;&nbsp;name: <b class="green">'[YOUR NAME]'</b>,</span></div>
+              <div class="code-line"><span class="ln">03</span><span>&nbsp;&nbsp;role: <b class="green">'CS Student'</b>,</span></div>
+              <div class="code-line"><span class="ln">04</span><span>&nbsp;&nbsp;focus: [</span></div>
+              <div class="code-line"><span class="ln">05</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<b class="orange">'Web'</b>, <b class="orange">'AI'</b>,</span></div>
+              <div class="code-line"><span class="ln">06</span><span>&nbsp;&nbsp;&nbsp;&nbsp;<b class="orange">'ML'</b>, <b class="orange">'CS'</b></span></div>
+              <div class="code-line"><span class="ln">07</span><span>&nbsp;&nbsp;],</span></div>
+              <div class="code-line"><span class="ln">08</span><span>&nbsp;&nbsp;learn: <b class="blue">true</b>,</span></div>
+              <div class="code-line"><span class="ln">09</span><span>&nbsp;&nbsp;build: <b class="blue">true</b>,</span></div>
+              <div class="code-line"><span class="ln">10</span><span>&nbsp;&nbsp;share: <b class="blue">true</b></span></div>
+              <div class="code-line"><span class="ln">11</span><span>};</span></div>
+              <div class="code-line"><span class="ln">12</span><span class="cursor-line"><b class="purple">developer</b>.repeat();<span class="cursor"></span></span></div>
+            </div>
+            <div class="terminal-bar"><span>$</span> learning --build --share <b>_</b></div>
+          </div>
+          <div class="floating-tag tag-html">&lt;HTML&gt;</div>
+          <div class="floating-tag tag-js">{ JS }</div>
+          <div class="floating-tag tag-ai">AI ×</div>
+        </div>
+      </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span> Scroll to explore</div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">01 / About</p>
+          <h2>Curious by nature.<br><span>Builder by practice.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              I’m a third-year Computer Science student interested in understanding how technology works
+              and turning what I learn into practical projects.
+            </p>
+            <p>
+              I’m especially interested in software development, web development, artificial intelligence,
+              machine learning, and computer vision. I also create programming content to document the journey
+              and make complicated ideas easier to approach.
+            </p>
+            <blockquote>
+              <span>“</span>
+              Learn something. Build something. Share something.
+            </blockquote>
+          </div>
+
+          <div class="about-focus reveal">
+            <article class="focus-card"><span class="focus-number">01</span><h3>Computer Science</h3><p>Understanding the foundations behind software and technology.</p></article>
+            <article class="focus-card"><span class="focus-number">02</span><h3>Web Development</h3><p>Building useful, responsive experiences for the web.</p></article>
+            <article class="focus-card"><span class="focus-number">03</span><h3>AI / Machine Learning</h3><p>Experimenting with models, data, and computer vision.</p></article>
+            <article class="focus-card"><span class="focus-number">04</span><h3>Content Creation</h3><p>Sharing what I learn through programming and technology content.</p></article>
+          </div>
+        </div>
+
+        <div class="stats reveal">
+          <div><strong>3rd Year</strong><span>Computer Science</span></div>
+          <div><strong>Projects</strong><span>Built &amp; Experimented</span></div>
+          <div><strong>Learning</strong><span>Always Improving</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 / Skills</p>
+          <h2>Tools I use to<br><span>turn ideas into projects.</span></h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal"><div class="skill-icon">&lt;/&gt;</div><h3>Frontend</h3><div class="skill-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">{ }</div><h3>Programming</h3><div class="skill-list"><span>Python</span><span>C++</span><span>Java</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">AI</div><h3>AI / Machine Learning</h3><div class="skill-list"><span>TensorFlow</span><span>Keras</span><span>Machine Learning</span><span>Computer Vision</span></div></article>
+          <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Tools</h3><div class="skill-list"><span>Git</span><span>GitHub</span><span>VS Code</span><span>Google Colab</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading section-heading-row reveal">
+          <div><p class="eyebrow">03 / Projects</p><h2>Things I’ve<br><span>built &amp; explored.</span></h2></div>
+          <p class="section-note">A selection of projects and experiments. Replace the placeholder links with your real repositories and demos.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-top"><span class="project-index">01</span><span class="project-type">COMPUTER VISION</span></div>
+            <div class="project-visual fracture-visual"><div class="scan-line"></div><span>IMAGE<br>CLASSIFICATION</span><b>10</b></div>
+            <div class="project-info"><h3>Bone Fracture Classification</h3><p>CNN image classification project using TensorFlow and Keras.</p><div class="tech-tags"><span>Python</span><span>TensorFlow</span><span>Keras</span></div><div class="project-links"><a href="#" aria-label="Bone Fracture Classification GitHub placeholder">GitHub ↗</a><a href="#" aria-label="Bone Fracture Classification demo placeholder">Demo ↗</a></div></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-index">02</span><span class="project-type">AI / ML</span></div>
+            <div class="project-visual histology-visual"><div class="cell c1"></div><div class="cell c2"></div><div class="cell c3"></div><div class="cell c4"></div><span>HISTOLOGY</span></div>
+            <div class="project-info"><h3>Lung &amp; Colon Classification</h3><p>Computer vision project for classifying histology images.</p><div class="tech-tags"><span>Python</span><span>CNN</span><span>Keras</span></div><div class="project-links"><a href="#" aria-label="Lung and Colon GitHub placeholder">GitHub ↗</a><a href="#" aria-label="Lung and Colon demo placeholder">Demo ↗</a></div></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-index">03</span><span class="project-type">BOT</span></div>
+            <div class="project-visual bot-visual"><div class="bot-screen"><span>● ONLINE</span><strong>UPLOAD<br>→ PREDICT</strong></div></div>
+            <div class="project-info"><h3>Telegram Image Bot</h3><p>A Telegram bot connected to an image classification model.</p><div class="tech-tags"><span>Python</span><span>Telegram</span><span>AI</span></div><div class="project-links"><a href="#" aria-label="Telegram bot GitHub placeholder">GitHub ↗</a><a href="#" aria-label="Telegram bot demo placeholder">Demo ↗</a></div></div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-top"><span class="project-index">04</span><span class="project-type">WEB</span></div>
+            <div class="project-visual web-visual"><span>&lt;div&gt;</span><span>BUILD</span><span>/&gt;</span></div>
+            <div class="project-info"><h3>Web Development Projects</h3><p>A collection of websites and experiments created while learning web development.</p><div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="#" aria-label="Web projects GitHub placeholder">GitHub ↗</a><a href="#" aria-label="Web projects demo placeholder">Demo ↗</a></div></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">04 / Journey</p>
+          <h2>Learn → Build → Share<br><span>→ Repeat.</span></h2>
+        </div>
+        <div class="journey-track">
+          <div class="journey-line"></div>
+          <article class="journey-step reveal"><span>01</span><div><h3>Learn the fundamentals</h3><p>Understand the concepts before jumping into bigger projects.</p></div></article>
+          <article class="journey-step reveal"><span>02</span><div><h3>Build a small project</h3><p>Turn the new knowledge into something concrete and testable.</p></div></article>
+          <article class="journey-step reveal"><span>03</span><div><h3>Build something real</h3><p>Combine skills and solve a problem with a complete project.</p></div></article>
+          <article class="journey-step reveal"><span>04</span><div><h3>Share the process</h3><p>Document what worked, what failed, and what I discovered.</p></div></article>
+          <article class="journey-step reveal"><span>05</span><div><h3>Improve and repeat</h3><p>Review the result, find weaknesses, and build the next version.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="content">
+      <div class="container content-panel reveal">
+        <div class="content-copy">
+          <p class="eyebrow">05 / Content</p>
+          <h2>I Learn.<br><span>Then I Share.</span></h2>
+          <p>I create programming and technology content to document what I learn and help other students approach technical topics step by step.</p>
+          <a class="button button-primary" href="#">Visit My YouTube <span>↗</span></a>
+        </div>
+        <div class="content-topics">
+          <div><span>01</span><strong>Programming</strong><small>Concepts &amp; practical projects</small></div>
+          <div><span>02</span><strong>AI &amp; Machine Learning</strong><small>Experiments &amp; computer vision</small></div>
+          <div><span>03</span><strong>Web Development</strong><small>From fundamentals to projects</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading reveal"><p class="eyebrow">06 / Contact</p><h2>Let’s build<br><span>something.</span></h2></div>
+        <div class="contact-grid">
+          <div class="contact-copy reveal">
+            <p class="lead">Have an idea, project, or question? Send a message.</p>
+            <p>This contact form is currently frontend-only. Connect it to a backend or form service when you are ready to receive real submissions.</p>
+            <div class="socials">
+              <a href="#" aria-label="GitHub placeholder">GH</a>
+              <a href="#" aria-label="YouTube placeholder">YT</a>
+              <a href="#" aria-label="LinkedIn placeholder">in</a>
+              <a href="#" aria-label="Instagram placeholder">IG</a>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Tell me about your idea..." required></textarea>
+
+            <button class="button button-primary" type="submit">Send Message <span>→</span></button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a class="brand" href="#home"><span class="brand-mark">&lt;/&gt;</span><span>[YOUR NAME]</span></a><p>Building. Learning. Sharing.</p></div>
+      <div class="footer-right"><div class="footer-socials"><a href="#" aria-label="GitHub placeholder">GitHub</a><a href="#" aria-label="YouTube placeholder">YouTube</a><a href="#" aria-label="LinkedIn placeholder">LinkedIn</a></div><p>© <span id="current-year"></span> [YOUR NAME]. All rights reserved.</p></div>
+    </div>
+  </footer>
+</body>
+</html>
