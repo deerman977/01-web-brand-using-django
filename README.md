@@ -1,4 +1,4 @@
-If you want to use it try: https://zero1-web-brand-using-django-0p72.onrender.com
+If you want to use it try: https://zero1-web-brand-using-django-3.onrender.com
 # Personal Brand Django Website
 
 ## Run on Windows PowerShell
